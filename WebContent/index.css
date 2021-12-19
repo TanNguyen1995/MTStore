@@ -1,0 +1,244 @@
+@charset "UTF-8";
+*{ 	padding-bottom: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+/************************ header************************/
+#header{
+    width: 100%;
+}
+body{
+    background-color: wheat;
+    padding: 0px;
+    margin: 0px;
+}
+#header #top{  
+    background-color: black;
+    
+}
+#header-logo {
+    color:  white;
+    font-family: 'Shalimar', cursive;
+    font-size: 40px;
+}
+#header #top span{
+    margin-left: 20px;
+}
+#header #top span :hover{
+color: #fed100;
+}
+#header #top #search {
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    height: 30px;
+    padding: 8px 35px 8px 13px;
+    border-radius: 4px;
+}
+#search__button{
+    background-color: black;
+    border: black;
+    cursor: pointer;
+}
+#header #top a {
+    text-decoration-line: none;
+    color: white;
+}
+#Shopping-cart{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #ffffff ;
+    border-radius:4px;
+}
+#header-nav{
+    float: left;
+    width: 100%;
+    background-color: #fed100;
+    padding: 10px 0px 10px 0px;
+}
+#left-nav{
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+#right-nav{
+    float: right;
+    margin-right: 20px;
+}
+.fa-search{
+    color: white;   
+}
+#header-nav a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+margin-left: 20px;
+padding: 10px 5px 10px 5px;
+text-align: center;
+padding: auto;
+}
+#header-nav a:hover{
+background-color: rgb(255, 255, 255);
+}
+/**************************** body************************/
+#body{
+width: 100%;
+}
+#body::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.infomation{
+float: left;
+width: 30%;
+height: 420px;
+background-color: #ffffff;
+margin: 10px;
+border: 1px;
+border-style: solid;
+border-radius: 5%;
+box-shadow: 2px 2px 2px rgb(87, 85, 85);
+}
+
+#product{
+    margin-top: 30px;
+    display: block;
+    float: left;
+    width: 70%;  
+}
+.infomation h1{
+    padding-left: 10px ;
+    font-size: 20px;
+}
+.infomation a{
+    text-decoration: none;
+    color: black;
+    }
+.infomation img{
+    margin-top: 10px;
+    width: 70%;
+}
+#pagination{
+    padding: 100px;
+    width: 100%;
+}
+#pagination a {
+    color:rgb(0, 0, 0);
+    float: left;
+    padding:  12px 18px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+ 
+#pagination a.active {
+    background-color: dodgerblue;
+    color: white;  
+    border-style: solid;
+    border-radius: 50%;
+    border-color: dodgerblue;
+  }
+
+#pagination a:hover:not(.active) {
+    background-color: dodgerblue;
+    border-radius: 50%;
+    color: white;
+    border-color: dodgerblue;
+    border-style: solid;
+  }
+#Shopping{
+    border: black 1px solid;
+    position: fixed ;
+    top: 120px;
+    right: 0px;
+    width: 30%;
+    
+}
+#Shopping img{
+
+width: 100%;
+}
+/**************************** footer************************/
+#footer{
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+#footer h1{
+    margin:10px 0px 0px 0px;
+    font-family: 'Shalimar', cursive;
+    padding-left: 30px;
+}
+/**************************** Login************************/
+#login{
+    position:absolute;
+    top: 10%;
+    left: 25%;
+    background-color: white;
+    width: 50%;
+    height: 60%;
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px rgb(87, 85, 85);
+    
+}
+#left-login{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: #474A59;  
+}
+#right-login{
+    width: 50%;
+    float: left;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+#login-sign{
+position: relative;
+top: 20%;
+left: 20%;
+}
+#login-sign h1{
+    margin-left: 20px;
+}
+#left-login .input{
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: rgb(230, 227, 227);
+}
+
+#login-sign #submit{
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 24px;    
+    background-color: #e4260d;
+    width: 150px;
+    height: 40px;
+    margin: 10px 0px 5px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#login-sign a{
+ text-decoration-line: none;
+ font-size: 20px;
+ margin: 10px 0px 5px 20px; 
+ color: #f1f1f1;
+}
+#right-login #content{
+    margin-left: 10px;
+    padding: 60px;
+    margin-top: 60px;
+}
+#right-login #content h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#right-login #content p{
+    text-align: center;
+}
+#error{
+	color:red;
+}

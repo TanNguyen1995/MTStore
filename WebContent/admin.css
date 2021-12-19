@@ -1,0 +1,85 @@
+*{
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    background-color:#25304b
+}
+a{
+    text-decoration-line: none;
+}
+#body-left{
+    float: left;
+    width: 20%;
+    background-color: #25304b;
+    box-shadow: 3px 3px 3px rgb(15, 15, 15);
+}
+#body-left img{
+    width: 100%;
+    height: 700px;
+    opacity: 0.1;
+}
+#body-left #content{
+ position:absolute;
+ top: 10px;
+ left: 30px;
+ z-index: 1;
+}
+#body-left #content h1{
+    margin-bottom: 20px;
+    color: rgb(182, 185, 11);
+}
+#body-left #content p{
+    padding: 10px;
+    color: rgb(187, 186, 186);
+}
+#body-left #content a{
+    color: rgb(187, 186, 186);
+}
+#body-left #content p:hover{
+    background-color:rgba(182, 51, 130, 0.705);
+}
+#body-right{
+    float: right;
+    width: 80%;
+}
+#body-right img{
+width: 100%;
+height: 400px;
+}
+#body-right #top{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+#body-right i,a {
+    margin-right: 10px;
+    text-decoration-line: none;
+    color: black;
+}
+
+#body-right table{
+    border-collapse: collapse;
+    margin-left: 10px; 
+}
+#staff-table #top-table th{
+    border: rgba(182, 51, 130, 0.705);
+    padding: 10px 305px 10px 0px;
+    color: #34495E;
+    font-size: 20px;    
+    background-color: rgba(182, 51, 130, 0.705);
+    color: rgba(255, 255, 255, 0.815);
+}
+#body-right #text-table td,th,tr {
+    border-bottom: 1px solid rgb(187, 186, 186);
+    padding: 15px ;
+    background-color: #34495E;
+    padding-right: 40px;
+    color: rgb(158, 158, 152);
+}
+#body-right #text-table th{
+    color: rgb(146, 146, 142);
+}
+
